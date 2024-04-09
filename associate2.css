@@ -1,0 +1,247 @@
+
+   
+
+body {
+  font-family: 'Open Sans', sans-serif;
+  font-weight: 500;
+    background-color: #FFCC3F;
+    background-image: url('bg.png');
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-position: center center;
+    color: #035c7c;
+    
+}
+
+a:visited, a{
+text-decoration: underline;
+color:#035c7c;
+}
+
+
+
+
+
+.button {
+  background-color: #a4d6fc; /* Green */
+  border: none;
+  color: #035c7c;
+  padding: 15px 15px;
+  text-align: center;
+  text-decoration: none;
+
+  font-size: 16px;
+  margin: 4px 2px;
+  cursor: pointer;
+}
+
+.button2 {background-color: #fbb104;} /* Blue */
+.button3 {background-color: #cff0fe;} /* Red */ 
+.button4 {background-color: #e7e7e7; color: #035c7c;} /* Gray */ 
+.button5 {background-color: #010101; color: white; padding: 5px 15px!important;} /* Black */
+
+
+button:hover,a.button:hover{
+  background-color: #999999;
+}
+
+button:active{top:1px;}
+
+  
+  
+  #myDiv1 {
+ 
+
+
+     padding: 10px;
+   border-width: 0px;
+
+
+ }   
+     
+  #myDiv2 {
+ 
+
+   padding: 10px;
+   border-width: 0px;
+
+   display: none;
+
+ }   
+  
+  
+ #tli {
+  max-width: 400px;
+
+ }
+
+ #darules {
+  max-width: 400px;
+
+ }
+  
+  
+
+
+
+
+
+
+
+
+
+
+
+
+
+.hidden {
+    display: none !important;
+  }
+.b1 {
+  background-color: #a4d6fc;
+}
+.b2 {
+  background-color: #070707;
+}
+
+  button {
+    background-color: #a4d6fc;
+    color: #035c7c;
+    padding: 15px 25px;
+    border: none;
+    border-radius: 3px;
+    cursor: pointer;
+    font-size: 20px;
+
+  }
+  
+  button:hover {
+    background-color: #fb0404;
+    color: white;
+  }
+
+  h1 {
+    font-weight: 900;
+  }
+
+
+  .t {
+    display: flex;
+    align-items: left;
+  }
+
+  .blue {
+    color: #035c7c;
+  }
+  
+
+
+  
+  .text {
+    text-align: center; /* center the text horizontally */
+    font-size: 24px; /* set the font size to 24 pixels */
+    font-weight: bold; /* set the font weight to bold */
+    color: #035c7c;
+  }
+  
+  .vertical {
+    writing-mode: vertical-rl; /* set the text orientation to vertical */
+    transform: rotate(180deg); /* rotate the text 180 degrees */
+
+  }
+  
+  
+  #imgpad {
+    
+    padding-left: 10px;
+  }
+
+
+
+   /* mobile */ 
+  @media (max-width: 700px) {
+    .plates {
+
+        display: flex;
+        flex-direction: column;
+        align-items: left;
+        justify-content: left;
+        width:100%;
+        margin: 0px;
+        padding: 0px;
+    
+    }
+      #containerZ {
+     
+        display: flex;
+        flex-direction: row;
+        height: 100vh;
+        width: 100%;
+      }
+      
+      #containerY {
+        flex: 1;
+        min-height: 100vh;
+        margin-left: 40px;
+       
+        padding-top: 50px!important;
+        width:100%;
+      }
+    
+      .container {
+        height: 100vh; /* set a fixed height for the container */
+        display: flex; /* use flexbox */
+        justify-content: right; /* center the content horizontally */
+        align-items: right; /* center the content vertically */
+        width: 60px;
+        position: fixed;
+        top: 0;
+        left: 0;
+        bottom: 0;
+        font-weight: 900;
+      }
+  }
+  
+  /* laptop */
+  @media (min-width: 701px) {
+    .plates {
+
+        display: flex;
+        flex-direction: column;
+        align-items: left;
+        justify-content: left;
+        width:100%;
+        margin: 0px;
+        padding: 0px;
+    
+    }
+      #containerZ {
+     
+        display: flex;
+        flex-direction: row;
+        height: 100vh;
+        width: 100%;
+      }
+      
+      #containerY {
+        flex: 1;
+        min-height: 100vh;
+        margin-left: 90px;
+       
+        padding-top: 50px!important;
+        width:100%;
+      }
+    
+      .container {
+        height: 100vh; /* set a fixed height for the container */
+        display: flex; /* use flexbox */
+        justify-content: right; /* center the content horizontally */
+        align-items: right; /* center the content vertically */
+        width: 100px;
+        position: fixed;
+        top: 0;
+        left: 0;
+        bottom: 0;
+        font-weight: 900;
+      }
+  }
